@@ -140,12 +140,10 @@ function redondearHaciaArriba(num) {
   return Math.ceil(num)
 }
 
-function numeroRandom() {
+function numeroRandom(num) {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  let num;
-  Math.random(num)
-  return num 
+  return Math.random(num)
 }
 
 function esPositivo(numero) {
