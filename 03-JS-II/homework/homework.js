@@ -160,9 +160,9 @@ function esPrimo(numero) {
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
   let numeroPrimo;
-  for (let i=2; i<n-1; i++)
+  for (let i=2; i<numero-1; i++)
   {
-    if (n%1 == 0)
+    if (numero%1 == 0)
     {
       return true
     }
@@ -179,7 +179,7 @@ function esVerdadero(valor){
   if (valor == true)
   return "Soy verdadero"
   else if (valor == false) {
-    "Soy false"
+    return "Soy falso"
   }
 
 }
